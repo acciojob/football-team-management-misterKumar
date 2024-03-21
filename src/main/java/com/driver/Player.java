@@ -6,6 +6,8 @@ public class Player {
 
     public Player(String playerName, int jerseyNumber) {
        // your code goes here
+        this.playerName=playerName;
+        this.jerseyNumber=jerseyNumber;
     }
 
     public String getPlayerName() {
